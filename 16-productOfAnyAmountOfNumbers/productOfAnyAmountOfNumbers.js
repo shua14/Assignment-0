@@ -1,5 +1,9 @@
 function productOfAnyAmountOfNumbers(...args) {
-  // Insert code here;
+  
+  let total = 1;
+  args.forEach(element => total *= element);
+
+  return total;
 }
 
 // Do not edit this line;
